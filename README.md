@@ -1,4 +1,17 @@
-# webpage
-Documents for the web page
-The file research.html is the file https://www.kellogg.northwestern.edu/faculty/sapienza/htm/research.htm
-It links to all the files in the directory -- however I could not put the replication packages (at the bottom because they are too big)
+Instructions:
+
+```bash
+# first ensure you have ruby 3.2.2
+brew install ruby # can also be done through rbenv
+# setup conda env
+conda create -n website python=3.11
+conda activate website
+gem install bundler jekyll
+jekyll new . --force
+bundle install
+```
+
+```bash
+# to launch
+bundle exec jekyll serve --port 4001
+```

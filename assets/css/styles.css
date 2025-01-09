@@ -1,0 +1,176 @@
+/* Base styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 790px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #330066;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #330066;
+}
+
+a:visited {
+    color: #330066;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Profile section */
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.profile-info {
+    flex: 1;
+    padding-right: 2em;
+}
+
+.profile-image {
+    max-width: 250px;
+    height: auto;
+}
+
+/* Papers list */
+.papers-list {
+    margin-top: 2em;
+}
+
+.paper-item {
+    margin-bottom: 1.5em;
+}
+
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-authors {
+    font-style: italic;
+}
+
+/* Abstract blocks */
+.abstract {
+    display: none;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-left: 3px solid #330066;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 3px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* Links section */
+.links-section {
+    margin: 1em 0;
+}
+
+.links-section a {
+    display: block;
+    margin: 0.5em 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-top: 1em;
+        max-width: 200px;
+    }
+}
+
+/* Paper abstract toggle functionality */
+.abstract-toggle {
+    cursor: pointer;
+    color: #330066;
+    text-decoration: underline;
+}
+
+/* PDF links */
+.pdf-link {
+    color: #330066;
+    font-weight: bold;
+}
+
+/* Updates and news section */
+.updates {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Citations and references */
+.citation {
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+/* Journal references */
+.journal {
+    font-style: italic;
+}
+
+/* Year indicators */
+.year {
+    font-weight: bold;
+    color: #666;
+}
