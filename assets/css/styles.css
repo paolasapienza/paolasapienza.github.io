@@ -76,30 +76,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Abstract blocks */
 .abstract {
-    display: none;
     margin: 1em 0;
     padding: 1em;
     background-color: #f5f5f5;
     border-left: 3px solid #330066;
+    font-size: 0.9em;
 }
 
-blockquote {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    border-left: 3px solid #ccc;
-    background-color: #f9f9f9;
+.abstract-link {
+    cursor: pointer;
+    color: #330066;
+    text-decoration: underline;
 }
 
-/* Tables */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1em 0;
-}
-
-td {
-    padding: 8px;
-    vertical-align: top;
+.abstract-link:hover {
+    color: #660066;
 }
 
 /* Links section */
