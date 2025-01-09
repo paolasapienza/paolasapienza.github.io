@@ -62,19 +62,25 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 2em;
 }
 
-.paper-item {
+/* Paper entries and abstract functionality */
+.paper-entry {
     margin-bottom: 1.5em;
 }
 
 .paper-title {
     font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.paper-info {
+    margin-bottom: 0.5em;
 }
 
 .paper-authors {
     font-style: italic;
 }
 
-/* Abstract blocks */
+/* Abstract styles */
 .abstract {
     margin: 1em 0;
     padding: 1em;
@@ -83,14 +89,22 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.9em;
 }
 
-.abstract-link {
+/* Abstract toggle button */
+.abstract-toggle {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
     cursor: pointer;
     color: #330066;
-    text-decoration: underline;
+    background: none;
+    border: 1px solid #330066;
+    border-radius: 3px;
 }
 
-.abstract-link:hover {
-    color: #660066;
+.abstract-toggle:hover {
+    background-color: #f5f5f5;
+    text-decoration: none;
 }
 
 /* Links section */
@@ -101,38 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 .links-section a {
     display: block;
     margin: 0.5em 0;
-}
-
-/* Footer */
-footer {
-    margin-top: 2em;
-    padding-top: 1em;
-    border-top: 1px solid #eee;
-    font-size: 0.9em;
-}
-
-/* Responsive design */
-@media screen and (max-width: 800px) {
-    .container {
-        width: 95%;
-        padding: 10px;
-    }
-
-    .profile-section {
-        flex-direction: column;
-    }
-
-    .profile-image {
-        margin-top: 1em;
-        max-width: 200px;
-    }
-}
-
-/* Paper abstract toggle functionality */
-.abstract-toggle {
-    cursor: pointer;
-    color: #330066;
-    text-decoration: underline;
 }
 
 /* PDF links */
@@ -164,4 +146,36 @@ footer {
 .year {
     font-weight: bold;
     color: #666;
+}
+
+/* Footer */
+footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-top: 1em;
+        max-width: 200px;
+    }
+    
+    .abstract-toggle {
+        display: block;
+        margin: 0.5em 0;
+        width: 100%;
+        text-align: center;
+    }
 }

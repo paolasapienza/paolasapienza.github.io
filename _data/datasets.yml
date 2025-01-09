@@ -1,7 +1,28 @@
-- paper: "Overconfidence and Preferences for Competition"
-  journal: "Journal of Finance"
-  link: "Replication materialsPreferencesforCompetition.zip"
-  
-- paper: "Diversity in Schools"
-  journal: "Review of Economic Studies"
-  link: "https://zenodo.org/record/7644650"
+datasets:
+  - paper: "Overconfidence and Preferences for Competition"
+    journal: "Journal of Finance"
+    link: "assets/datasets/Replication materialsPreferencesforCompetition.zip"
+
+  - paper: "Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students"
+    journal: "Review of Economic Studies"
+    link: "https://zenodo.org/record/7644650"
+
+  - paper: "Long-Term Orientation and Educational Performance"
+    journal: "American Economic Journal: Economic Policy"
+    link: "assets/datasets/Replication_package_LTO_Figlioetal.zip"
+
+  - paper: "Long-Term Persistence"
+    journal: "Journal of the European Economic Association"
+    link: "assets/datasets/Ltp_replicationpacket.zip"
+
+  - paper: "The Role of Social Capital in Financial Development"
+    journal: "American Economic Review"
+    link: "assets/datasets/soc-capital.zip"
+
+  - paper: "Cultural Biases in Economic Exchange?"
+    journal: "The Quarterly Journal of Economics"
+    link: "assets/datasets/somaticdistance.zip"
+
+  - paper: "Cultural Biases in Economic Exchange?"
+    journal: "The Quarterly Journal of Economics"
+    link: "assets/datasets/Table3.dta"

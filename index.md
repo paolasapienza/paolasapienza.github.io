@@ -14,15 +14,23 @@ Professor of [Finance](https://www.kellogg.northwestern.edu/faculty/academics/fi
 ## Research Papers
 
 {% for paper in site.data.papers %}
-{{ paper.id }}. [**{{ paper.title }}**]({{ paper.pdf }}) \[[<a href="javascript:void(0)" onclick="toggleAbstract('{{ paper.id }}')">Abstract</a>]\]  
-   (with {{ paper.authors }}), {{ paper.date }}, *{{ paper.journal }}*. vol.{{ paper.volume }}, pp {{ paper.pages }}
-
-<div id="abstract-{{ paper.id }}" style="display: none;" class="abstract">
-{{ paper.abstract }}
+<div class="paper-entry">
+    <div class="paper-title">
+        {{ paper.id }}. <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
+        <button onclick="toggleAbstract('{{ paper.id }}')" class="abstract-toggle">Abstract</button>
+    </div>
+    <div class="paper-info">
+        (with {{ paper.authors }}), {{ paper.date }}, <em>{{ paper.journal }}</em>. vol.{{ paper.volume }}, pp {{ paper.pages }}
+    </div>
+    <div id="abstract-{{ paper.id }}" class="abstract" style="display: none;">
+        {{ paper.abstract }}
+    </div>
 </div>
 {% endfor %}
 
 ## Datasets and Replication Material
+
+This list includes non-proprietary data (includes all data that I can distribute). Please, note that if a dataset is offered to paying institutions through a contract, I cannot distribute those data. Read the appendix of the relevant paper before contacting me with further requests.
 
 {% for dataset in site.data.datasets %}
 - Dataset and replication material for the paper **"{{ dataset.paper }}"**, *{{ dataset.journal }}* ([data download]({{ dataset.link }}))
