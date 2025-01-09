@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
 .container {
     width: 790px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 /* Links */
@@ -35,8 +35,23 @@ a:visited {
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 0.25em;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+body {
+    font-size: 12px; 
 }
 
 /* Profile section */
@@ -44,36 +59,48 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 2em;
+    margin-bottom: 1em;  
 }
 
 .profile-info {
     flex: 1;
     padding-right: 2em;
+    max-width: 50%;  /* Give even more space to image */
 }
 
 .profile-image {
-    max-width: 250px;
+    width: 40%;  /* Use percentage instead of max-width */
     height: auto;
+    margin-top: 0.75em;
 }
 
 /* Papers list */
 .papers-list {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 /* Paper entries and abstract functionality */
-.paper-entry {
-    margin-bottom: 1.5em;
+.paper-entry,
+.summary-entry,
+.writing-entry {
+    margin-bottom: 0.75em;
+    padding-bottom: 0;
 }
 
-.paper-title {
+.paper-title,
+.summary-title,
+.writing-title {
     font-weight: bold;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
+    display: inline;
 }
 
-.paper-info {
-    margin-bottom: 0.5em;
+.paper-info,
+.summary-info,
+.writing-info {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    line-height: 1.4;
 }
 
 .paper-authors {
@@ -82,8 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Abstract styles */
 .abstract {
-    margin: 1em 0;
-    padding: 1em;
+    margin: 0.5em 0;
+    padding: 0.75em;
     background-color: #f5f5f5;
     border-left: 3px solid #330066;
     font-size: 0.9em;
@@ -109,12 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Links section */
 .links-section {
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 .links-section a {
     display: block;
-    margin: 0.5em 0;
+    margin: 0.25em 0;
 }
 
 /* PDF links */
@@ -134,7 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Citations and references */
 .citation {
     font-style: italic;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
+    line-height: 1.4;
 }
 
 /* Journal references */
@@ -156,6 +184,22 @@ footer {
     font-size: 0.9em;
 }
 
+/* Dataset section spacing */
+#datasets li {
+    margin-bottom: 0.75em;
+    line-height: 1.4;
+}
+
+/* General list styling */
+.container ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+}
+
+.container ul li {
+    margin-bottom: 0.75em;
+}
+
 /* Responsive design */
 @media screen and (max-width: 800px) {
     .container {
@@ -173,9 +217,16 @@ footer {
     }
     
     .abstract-toggle {
-        display: block;
-        margin: 0.5em 0;
-        width: 100%;
-        text-align: center;
+        display: inline-block;
+        margin: 0.25em;
+        width: auto;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 18px;
     }
 }

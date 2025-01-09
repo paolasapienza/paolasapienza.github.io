@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<div class="profile-section">
+<div class="profile-info">
+{% capture profile_content %}
+
 # Paola Sapienza
 
 **[On Leave 2023-24: Hoover Institution, Stanford University]**  
@@ -10,6 +14,21 @@ Donald C. Clark/HSBC Chair in Consumer Finance
 Professor of [Finance](https://www.kellogg.northwestern.edu/faculty/academics/finance.aspx)  
 [Kellogg School of Management](https://www.kellogg.northwestern.edu/)  
 [Northwestern University](http://www.northwestern.edu)  
+2221 Campus Drive, Evanston, IL 60208-2001  
+e-mail: [Paola-Sapienza@kellogg.northwestern.edu](mailto:Paola-Sapienza@kellogg.northwestern.edu)
+
+[Curriculum vitae]({{ '/assets/cv/CV.pdf' | relative_url }})  
+[Kellogg bio](https://www.kellogg.northwestern.edu/faculty/directory/sapienza_paola.aspx)  
+[Financial Trust Index](http://www.financialtrustindex.org/)  
+[Google Scholar Page](https://scholar.google.com/citations?user=sP8pxEMAAAAJ&hl=en)
+
+{% endcapture %}
+{{ profile_content | markdownify }}
+</div>
+
+<img src="{{ '/assets/images/Sapienza_08_new.bmp' | relative_url }}" alt="Paola Sapienza" class="profile-image">
+
+</div>
 
 ## Research Papers
 
