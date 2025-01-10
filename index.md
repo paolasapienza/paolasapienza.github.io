@@ -106,5 +106,5 @@ e-mail: [PaolaSapienza@stanford.edu](mailto:paolaSapienza@stanford.edu)
 This list includes non-proprietary data (includes all data that I can distribute). Please, note that if a dataset is offered to paying institutions through a contract, I cannot distribute those data. Read the appendix of the relevant paper before contacting me with further requests.
 
 {% for dataset in site.data.datasets.datasets %}
-- Dataset and replication material for the paper **"{{ dataset.title }}"**, *{{ dataset.journal }}* ([data download]({{ dataset.link }}))
+- {% if dataset.link contains 'http' %}<a href="{{ dataset.link }}">{% if dataset.type %}{{ dataset.type }}{% else %}Dataset and replication material{% endif %}</a>{% else %}<a href="{{ dataset.link }}" download>{% if dataset.type %}{{ dataset.type }}{% else %}Dataset and replication material{% endif %}</a>{% endif %} for the paper **{{ dataset.title }}**, *{{ dataset.journal }}*
 {% endfor %}
