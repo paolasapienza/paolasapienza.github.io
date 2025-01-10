@@ -5,7 +5,7 @@ summaries:
     date: "July 2022"
     pdf: "assets/papers/NBERReporterN2_2022.pdf"
 
-    - id: 2
+  - id: 2
     title: "NBER Reporter 2011: Trust and Finance"
     authors: "Luigi Zingales"
     date: "July 2011"

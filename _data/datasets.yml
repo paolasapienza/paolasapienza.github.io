@@ -33,19 +33,3 @@ datasets:
     title: "Cultural Biases in Economic Exchange?"
     journal: "The Quarterly Journal of Economics"
     link: "assets/datasets/Table3.dta"
-    
-    
-    This file is problematic, 1 to 3 are actually replication packages (I have now linked to the journal sites). 4 is only data: it should be
-    Dataset for paper "Long-Term Persistence," Journal of the European Economic Association, 2016 (data download)
-    
-    Similarly for 5: Dataset for paper "The Role of Social Capital in Financial Development," American Economic Review, 94(3): 526-556 (data download)
-    
-    
-    6 and 7 are referred to the same paper ""Cultural Biases in Economic Exchange?", I can only distribute a subset of the data because the rest is proprietary
-    The first entry (6) is one variable "somatic distance"
-    Somatic distance dataset from the paper "Cultural Biases in Economic Exchange?," The Quarterly Journal of Economics, 124(3), August 2009. (data download)
-    
-    The second entry (7) is (non-copyrighted) Data to reconstruct Table 3 in "Cultural Biases in Economic Exchange?," The Quarterly Journal of Economics, 124(3), August 2009. (data download)
-    
-    
-    

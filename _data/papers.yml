@@ -1,7 +1,7 @@
 
 - id: 1
   title: Embedded Culture as a Source of Comparative Advantage
-  pdf:assets/papers/cultureHandbook.pdf
+  pdf: assets/papers/cultureHandbook.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Handbook of Culture and Economic Behavior
   date: Forthcoming
@@ -10,7 +10,7 @@
 - id: 2
   title: Overconfidence and Preferences for Competition
   pdf: assets/papers/PreferenceCompetition.pdf
-  Appendix: assets/papers/AppendixPreferenceCompetition.pdf
+  appendix: assets/papers/AppendixPreferenceCompetition.pdf
   authors: Ernesto Reuben and Luigi Zingales
   journal: Journal of Finance
   date: April 2024
@@ -26,9 +26,9 @@
     do not explain the gender pay gap among MBAs.
 
 - id: 3
-  title: Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students
+  title: 'Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students'
   pdf: assets/papers/DiversityinSchools.pdf
-  Appendix: assets/papers/AppendixAImmigrants.pdf
+  appendix: assets/papers/AppendixAImmigrants.pdf
   authors: David Figlio, Paola Giuliano, Riccardo Marchingiglio, and Umut Ozek
   journal: Review of Economic Studies
   date: March 2024
@@ -68,7 +68,7 @@
 - id: 5
   title: The Family Origin of the Math Gender Gap is a White Affluent Phenomenon
   pdf: assets/papers/AER_PP_Gender_20201226.pdf
-  Appendix: assets/papers/AER_PP_Gender_appendix_20201226.pdf
+  appendix: assets/papers/AER_PP_Gender_appendix_20201226.pdf
   authors: Gaia Dossi, David Figlio, and Paola Giuliano
   journal: American Economic Review
   date: May 2021
@@ -84,7 +84,7 @@
 - id: 6
   title: 'Born in the Family: Preferences for Boys and the Gender Gap in Math'
   pdf: assets/papers/Borninthefamily.pdf
-  Appendix: assets/papers/BornintheFamilyOnlineAppendix_December2020.pdf
+  appendix: assets/papers/BornintheFamilyOnlineAppendix_December2020.pdf
   authors: Gaia Dossi, David Figlio, and Paola Giuliano
   journal: Journal of Economic Behavior and Organization
   date: March 2021
@@ -106,7 +106,7 @@
 - id: 7
   title: Civic Capital and Social Distancing during the Covid-19 Pandemic
   pdf: assets/papers/Covid.pdf
-  Appendix: assets/papers/CovidAppendix.pdf
+  appendix: assets/papers/CovidAppendix.pdf
   authors: John M. Barrios, Efraim Benmelech, Yael V. Hochberg, and Luigi Zingales
   journal: Journal of Public Economics
   date: January 2021
@@ -134,14 +134,14 @@
     relationship between patience and various measures of subjective well-being is
     hump-shaped: it exists an optimal amount of patience that maximizes happiness.
     Beyond this optimal level, higher levels of patience have a negative impact on
-    well-being. (JEL A0,D01,D9,Z1)
+    well-being. (JEL A0,D01,D9,Z1)'
 
 - id: 9
   title: Long-Term Orientation and Educational Performance
   pdf: assets/papers/LTOForthcoming.pdf
-  Appendix: assets/papers/Online_Appendix_LTO.pdf
+  appendix: assets/papers/Online_Appendix_LTO.pdf
   authors: David Figlio, Paola Giuliano, and Umut Ozek
-  journal: American Economic Journal: Economic Policy
+  journal: 'American Economic Journal: Economic Policy'
   date: November 2019
   volume: '11'
   pages: 272-309
@@ -158,13 +158,13 @@
 - id: 10
   title: Time Varying Risk Aversion
   pdf: assets/papers/RiskAversion.pdf
-  Appendix: assets/papers/RiskAversionAppendix.pdf
+  appendix: assets/papers/RiskAversionAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Financial Economics
   date: June 2018
   volume: '128'
   pages: 403-421
-  abstract: Exploiting portfolio data and repeated surveys of an Italian bank clients
+  abstract: "Exploiting portfolio data and repeated surveys of an Italian bank clients
     we test whether investors' risk aversion increases following the 2008 crisis.
     We find that, after the crisis, both qualitative and quantitative measures of
     risk aversion increase substantially and that affected individuals divest more
@@ -172,18 +172,18 @@
     perceived probabilities, and emotion-based changes of the utility function. Our
     data are inconsistent with the first two channels, while they suggest that fear
     is a potential mechanism underlying financial decisions, whether by increasing
-    the curvature of the utility function or the salience of negative outcomes.
+    the curvature of the utility function or the salience of negative outcomes."
 
 - id: 11
   title: Long Term Persistence
   pdf: assets/papers/LTP_final.pdf
-  Appendix: assets/papers/PutnamAppendix.pdf
+  appendix: assets/papers/PutnamAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of European Economic Association,
   date: December 2016
   volume: 14(6)
   pages: 1401-1436
-  abstract: We study whether a positive historical shock can generate long-term persistence
+  abstract: "We study whether a positive historical shock can generate long-term persistence
     in development. We show that Italian cities that achieved self-government in the
     Middle Ages have a higher level of civic capital today than similar cities in
     the same area that did not. The size of this effect increases with the length
@@ -194,7 +194,7 @@
     transmitted across generations, enhances civic capital today. Consistently, we
     find that fifth-graders in former free city-states exhibit stronger self-efficacy
     beliefs and that these beliefs are correlated with a higher level of civic capital.
-    (JEL: O43, P16, O10)
+    (JEL: O43, P16, O10)"
 
 - id: 12
   title: Monnet's Error?
@@ -204,7 +204,7 @@
   date: 2016
   volume: '31'
   pages: 247-297
-  abstract: Entering a currency union without any political union European countries
+  abstract: "Entering a currency union without any political union European countries
     have taken a gamble: will the needs of the currency unions force a political integration
     (as anticipated by Monnet) or will the tensions create a backlash, as suggested
     by Kaldor, Friedman and many others? We try to answer this question by analyzing
@@ -213,7 +213,7 @@
     sentiment as does the 2010 Eurozone crisis. Yet, in spite of the worst recession
     in recent history, the Europeans still support the common currency. Europe seems
     trapped: there is no desire to go backward, no interest in going forward, but
-    it is economically unsustainable to stay still.
+    it is economically unsustainable to stay still."
 
 - id: 13
   title: Corporate Culture, Societal Culture, and Institutions
@@ -252,10 +252,10 @@
   title: Procrastination and Impatience
   pdf: assets/papers/ProcrastinationImpatience.pdf
   authors: Ernesto Reuben and Luigi Zingales
-  journal: Journal of Behavioral and Experimental Economics,
+  journal: Journal of Behavioral and Experimental Economics
   date: 2015
   pages: 63-76
-  abstract: We use a combination of lab and field evidence to study whether highly-impatient
+  abstract: "We use a combination of lab and field evidence to study whether highly-impatient
     individuals are more likely to procrastinate. To measure impatience, we elicit
     individual discount rates by giving participants choices between smaller-sooner
     and larger-later rewards. To measure procrastination, we record how fast participants
@@ -263,11 +263,11 @@
     a mandatory survey. We find that, consistent with the theory, impatient individuals
     procrastinate more, but only in tasks where there are costs to delay (the online
     game and university application). Since we paid participants by check to control
-    for transaction costs, we are also able to determine whether the participants�
+    for transaction costs, we are also able to determine whether the participants'
     cashing behavior is consistent with the timing of their payment choice. We find
     substantial evidence of time inconsistency. Namely, more than half of the participants
     who received their check straight away instead of waiting two weeks for a reasonably
-    larger amount, subsequently took more than two weeks to cash it.
+    larger amount, subsequently took more than two weeks to cash it."
 
 - id: 16
   title: How Stereotypes Impair Women's Career in Science
@@ -297,7 +297,7 @@
 - id: 17
   title: Economic Experts versus Average Americans
   pdf: assets/papers/aer2013.pdf
-  Appendix: assets/papers/AppendixAER2013.pdf
+  appendix: assets/papers/AppendixAER2013.pdf
   authors: Luigi Zingales
   journal: American Economic Review, Papers and Proceedings
   date: May 2013
@@ -308,7 +308,7 @@
 - id: 18
   title: The Determinants of Attitudes towards Strategic Default on Mortgages
   pdf: assets/papers/Guiso_Sapienza_Zingales_StrategicDefault.pdf
-  Appendix: assets/papers/AppendixSD.pdf
+  appendix: assets/papers/AppendixSD.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Finance
   date: August 2013
@@ -335,7 +335,7 @@
     study the economic effect of trust. Recent work, however, questions its validity
     as an accurate measure of trust by showing that it is not correlated with the
     sender�s behaviour in the Berg et al. trust game. What measure then should we
-    trust to measure trust? In this article, we argue that the sender�s behaviour
+    trust to measure trust? In this article, we argue that the sender's behaviour
     in a trust game is driven both by beliefs and by preferences. In contrast, WVS-like
     measures capture mostly the belief based component of a trust game.
 
@@ -358,16 +358,16 @@
 
 
 - id: 21
-    title: "Civic Capital as the Missing Link"
-    pdf: "assets/papers/civic_cap.pdf"
-    authors: Luigi Guiso and Luigi Zingales
-    publication: "Handbook of Social Economics"
-    editors: "Jess Benhabib, Alberto Bisin and Matthew Jackson"
-    volume: "1"
-    pages: 417-480
-    publisher: "Elsevier"
-    date: "2011"
-    abstract: This chapter reviews the recent debate about the role of social capital in economics. We argue that all the difficulties this concept has encountered in economics are due to a vague and excessively broad definition. For this reason, we restrict social capital to the set of values and beliefs that help cooperation—which for clarity we label civic capital. We argue that this definition differentiates social capital from human capital and satisfies the properties of the standard notion of capital. We then argue that civic capital can explain why differences in economic performance persist over centuries and discuss how the effect of civic capital can be distinguished empirically from other variables that affect economic performance and its persistence, including institutions and geography.
+  title: "Civic Capital as the Missing Link"
+  pdf: "assets/papers/civic_cap.pdf"
+  authors: Luigi Guiso and Luigi Zingales
+  publication: "Handbook of Social Economics"
+  editors: "Jess Benhabib, Alberto Bisin and Matthew Jackson"
+  volume: "1"
+  pages: 417-480
+  publisher: "Elsevier"
+  date: "2011"
+  abstract: This chapter reviews the recent debate about the role of social capital in economics. We argue that all the difficulties this concept has encountered in economics are due to a vague and excessively broad definition. For this reason, we restrict social capital to the set of values and beliefs that help cooperation—which for clarity we label civic capital. We argue that this definition differentiates social capital from human capital and satisfies the properties of the standard notion of capital. We then argue that civic capital can explain why differences in economic performance persist over centuries and discuss how the effect of civic capital can be distinguished empirically from other variables that affect economic performance and its persistence, including institutions and geography.
 
 
 - id: 22
@@ -417,7 +417,7 @@
 - id: 25
   title: Cultural Biases in Economic Exchange?
   pdf: assets/papers/cultural_biases.pdf
-  Appendix: assets/papers/OnlineAppendix.pdf
+  appendix: assets/papers/OnlineAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: The Quarterly Journal of Economics
   volume: 124(3)
@@ -519,7 +519,7 @@
 - id: 31
   title: Alfred Marshall Lecture -- Social Capital as Good Culture
   pdf: assets/papers/social_capital_jeea.pdf
-    authors: Luigi Guiso and Luigi Zingales
+  authors: Luigi Guiso and Luigi Zingales
   journal: The Journal of the European Economic Association
   date: May 2008
   volume: 20(2)
@@ -561,14 +561,14 @@
   date: May 2004
   volume: 72(2)
   pages: 357-384
-  abstract: This paper uses information on individual loan contracts to study the
+  abstract: "This paper uses information on individual loan contracts to study the
     effects of government ownership on bank lending behavior. State-owned banks charge
     lower interest rates than do privately owned banks to similar or identical firms,
     even if firms are able to borrow more from privately owned banks. State-owned
     banks mostly favor large firms and firms located in depressed areas. The lending
     behavior of state-owned banks is affected by the electoral results of the party
     affiliated with the bank: the stronger the political party in the area where the
-    firm is borrowing, the lower the interest rates charged.
+    firm is borrowing, the lower the interest rates charged."
 
 - id: 34
   title: People's Opium? Religion and Economic Attitudes
@@ -579,7 +579,7 @@
   volume: 50(1)
   pages: 225-282
   abstract: Since Max Weber, there has been an active debate on the impact of religion
-    on people�s economic attitudes. Much of the existing evidence, however, is based
+    on people's economic attitudes. Much of the existing evidence, however, is based
     on cross-country studies in which this impact is confounded by differences in
     other institutional factors. We use the World Values Surveys to identify the relationship
     between intensity of religious beliefs and economic attitudes, controlling for

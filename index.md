@@ -13,7 +13,7 @@ Hoover Institution, Stanford University
 George P. Schulz Building, #316
 426 Galvez Mall
 Stanford, CA 94305
-e-mail: [PaolaSapienza@stanford.edu](mailto:PaolaSapienza@stanford.edu)
+e-mail: [PaolaSapienza@stanford.edu](mailto:paolaSapienza@stanford.edu)
 
 [Curriculum vitae]({{ '/assets/cv/CV.pdf' | relative_url }})  
 [Hoover bio](https://www.hoover.org/profiles/paola-sapienza)  
@@ -34,10 +34,11 @@ e-mail: [PaolaSapienza@stanford.edu](mailto:PaolaSapienza@stanford.edu)
 <div class="paper-entry">
     <div class="paper-title">
         {{ paper.id }}. <strong><a href="{{ paper.pdf }}">{{ paper.title }}</a></strong>
+        {% if paper.appendix %}<a href="{{ paper.appendix }}" class="appendix-link">[Appendix]</a>{% endif %}
         <button onclick="toggleAbstract('{{ paper.id }}')" class="abstract-toggle">Abstract</button>
     </div>
     <div class="paper-info">
-        {% if paper.authors %}(with {{ paper.authors }}){% endif %}{% if paper.date %}, {{ paper.date }}{% endif %}{% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}{% if paper.volume %}. vol.{{ paper.volume }}{% endif %}{% if paper.pages %}, pp {{ paper.pages }}{% endif %}
+        {% if paper.authors and paper.authors != "" %}(with {{ paper.authors }}){% endif %}{% if paper.date %}{% if paper.authors and paper.authors != "" %}, {% endif %}{{ paper.date }}{% endif %}{% if paper.journal %}, <em>{{ paper.journal }}</em>{% endif %}{% if paper.volume %}. vol.{{ paper.volume }}{% endif %}{% if paper.pages %}, pp {{ paper.pages }}{% endif %}
     </div>
     <div id="abstract-{{ paper.id }}" class="abstract" style="display: none;">
         {{ paper.abstract }}
@@ -73,7 +74,6 @@ e-mail: [PaolaSapienza@stanford.edu](mailto:PaolaSapienza@stanford.edu)
 {% endfor %}
 
 ## Other Writings
-
 {% for writing in site.data.other_writings.other_writings %}
 <div class="writing-entry">
     <div class="writing-title">
@@ -91,12 +91,7 @@ e-mail: [PaolaSapienza@stanford.edu](mailto:PaolaSapienza@stanford.edu)
         {% endif %}
     </div>
     <div class="writing-info">
-        {% if writing.authors %}(with {{ writing.authors }}){% endif %}
-        {% if writing.date %}, {{ writing.date }}{% endif %}
-        {% if writing.journal %}, <em>{{ writing.journal }}</em>{% endif %}
-        {% if writing.volume %}. vol.{{ writing.volume }}{% endif %}
-        {% if writing.pages %}, pp {{ writing.pages }}{% endif %}
-        {% if writing.type %}, {{ writing.type }}{% endif %}
+        {% if writing.authors and writing.authors != "" %}(with {{ writing.authors }}){% endif %}{% if writing.date %}{% if writing.authors and writing.authors != "" %}, {% endif %}{{ writing.date }}{% endif %}{% if writing.journal %}, <em>{{ writing.journal }}</em>{% endif %}{% if writing.book %}, in <em>{{ writing.book }}</em>{% endif %}{% if writing.editors %}, edited by {{ writing.editors }}{% endif %}{% if writing.volume %}. vol.{{ writing.volume }}{% endif %}{% if writing.pages %}, pp {{ writing.pages }}{% endif %}{% if writing.publisher %}{% if writing.location %}, {{ writing.publisher }}, {{ writing.location }}{% else %}, {{ writing.publisher }}{% endif %}{% endif %}{% if writing.type %}, {{ writing.type }}{% endif %}
     </div>
     {% if writing.abstract %}
     <div id="abstract-writing-{{ writing.id }}" class="abstract" style="display: none;">

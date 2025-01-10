@@ -150,6 +150,16 @@ body {
     font-weight: bold;
 }
 
+/* Appendix links */
+.appendix-link {
+    color: #53565A;
+    text-decoration: none;
+}
+
+.appendix-link:hover {
+    text-decoration: underline;
+}
+
 /* Updates and news section */
 .updates {
     margin: 2em 0;
