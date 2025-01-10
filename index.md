@@ -9,16 +9,14 @@ title: Home
 
 # Paola Sapienza
 
-**[On Leave 2023-24: Hoover Institution, Stanford University]**  
-Donald C. Clark/HSBC Chair in Consumer Finance  
-Professor of [Finance](https://www.kellogg.northwestern.edu/faculty/academics/finance.aspx)  
-[Kellogg School of Management](https://www.kellogg.northwestern.edu/)  
-[Northwestern University](http://www.northwestern.edu)  
-2221 Campus Drive, Evanston, IL 60208-2001  
-e-mail: [Paola-Sapienza@kellogg.northwestern.edu](mailto:Paola-Sapienza@kellogg.northwestern.edu)
+Hoover Institution, Stanford University
+George P. Schulz Building, #316
+426 Galvez Mall
+Stanford, CA 94305
+e-mail: [PaolaSapienza@stanford.edu](mailto:PaolaSapienza@stanford.edu)
 
 [Curriculum vitae]({{ '/assets/cv/CV.pdf' | relative_url }})  
-[Kellogg bio](https://www.kellogg.northwestern.edu/faculty/directory/sapienza_paola.aspx)  
+[Hoover bio](https://www.hoover.org/profiles/paola-sapienza)  
 [Financial Trust Index](http://www.financialtrustindex.org/)  
 [Google Scholar Page](https://scholar.google.com/citations?user=sP8pxEMAAAAJ&hl=en)
 
