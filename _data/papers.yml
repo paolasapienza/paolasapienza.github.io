@@ -557,7 +557,6 @@
 - id: 33
   title: The Effects of Government Ownership on Bank Lending
   pdf: assets/papers/state-enter.pdf
-  authors: 
   journal: Journal of Financial Economics
   date: May 2004
   volume: 72(2)
@@ -596,7 +595,6 @@
 
 - id: 35
   title: The Effects of Banking Mergers on Loan Contracts
-  authors: 
   journal: Journal of Finance
   date: February 2002
   volume: 57(1)
