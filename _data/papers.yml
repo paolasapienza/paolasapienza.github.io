@@ -1,10 +1,16 @@
 
 - id: 1
-  title: ''
+  title: Embedded Culture as a Source of Comparative Advantage
+  pdf:assets/papers/cultureHandbook.pdf
+  authors: Luigi Guiso and Luigi Zingales
+  journal: Handbook of Culture and Economic Behavior
+  date: Forthcoming
+  abstract: This paper examines how the concept of embedded culture played a transformative role in the ongoing cultural revolution within economics and business.  We trace the field's shift from the 20th-century concept of homo economicus universalis to an approach incorporating cultural embeddedness in economic behavior. Beyond documenting this intellectual transformation, we identify fertile areas for future research and explore how an embedded cultural perspective can enhance both our understanding of economic phenomena and the design of effective policies.
 
 - id: 2
   title: Overconfidence and Preferences for Competition
   pdf: assets/papers/PreferenceCompetition.pdf
+  Appendix: assets/papers/AppendixPreferenceCompetition.pdf
   authors: Ernesto Reuben and Luigi Zingales
   journal: Journal of Finance
   date: April 2024
@@ -20,9 +26,9 @@
     do not explain the gender pay gap among MBAs.
 
 - id: 3
-  title: 'Diversity in Schools: Immigrants and the Educational Performance of U.S.
-    Born Students'
+  title: Diversity in Schools: Immigrants and the Educational Performance of U.S. Born Students
   pdf: assets/papers/DiversityinSchools.pdf
+  Appendix: assets/papers/AppendixAImmigrants.pdf
   authors: David Figlio, Paola Giuliano, Riccardo Marchingiglio, and Umut Ozek
   journal: Review of Economic Studies
   date: March 2024
@@ -62,6 +68,7 @@
 - id: 5
   title: The Family Origin of the Math Gender Gap is a White Affluent Phenomenon
   pdf: assets/papers/AER_PP_Gender_20201226.pdf
+  Appendix: assets/papers/AER_PP_Gender_appendix_20201226.pdf
   authors: Gaia Dossi, David Figlio, and Paola Giuliano
   journal: American Economic Review
   date: May 2021
@@ -77,6 +84,7 @@
 - id: 6
   title: 'Born in the Family: Preferences for Boys and the Gender Gap in Math'
   pdf: assets/papers/Borninthefamily.pdf
+  Appendix: assets/papers/BornintheFamilyOnlineAppendix_December2020.pdf
   authors: Gaia Dossi, David Figlio, and Paola Giuliano
   journal: Journal of Economic Behavior and Organization
   date: March 2021
@@ -98,6 +106,7 @@
 - id: 7
   title: Civic Capital and Social Distancing during the Covid-19 Pandemic
   pdf: assets/papers/Covid.pdf
+  Appendix: assets/papers/CovidAppendix.pdf
   authors: John M. Barrios, Efraim Benmelech, Yael V. Hochberg, and Luigi Zingales
   journal: Journal of Public Economics
   date: January 2021
@@ -125,13 +134,14 @@
     relationship between patience and various measures of subjective well-being is
     hump-shaped: it exists an optimal amount of patience that maximizes happiness.
     Beyond this optimal level, higher levels of patience have a negative impact on
-    well-being. (JEL A0,D01,D9,Z1)'
+    well-being. (JEL A0,D01,D9,Z1)
 
 - id: 9
   title: Long-Term Orientation and Educational Performance
   pdf: assets/papers/LTOForthcoming.pdf
+  Appendix: assets/papers/Online_Appendix_LTO.pdf
   authors: David Figlio, Paola Giuliano, and Umut Ozek
-  journal: 'American Economic Journal: Economic Policy'
+  journal: American Economic Journal: Economic Policy
   date: November 2019
   volume: '11'
   pages: 272-309
@@ -148,50 +158,53 @@
 - id: 10
   title: Time Varying Risk Aversion
   pdf: assets/papers/RiskAversion.pdf
+  Appendix: assets/papers/RiskAversionAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Financial Economics
   date: June 2018
   volume: '128'
   pages: 403-421
-  abstract: 'Exploiting portfolio data and repeated surveys of an Italian bank'' clients
-    we test whether investors'' risk aversion increases following the 2008 crisis.
+  abstract: Exploiting portfolio data and repeated surveys of an Italian bank clients
+    we test whether investors' risk aversion increases following the 2008 crisis.
     We find that, after the crisis, both qualitative and quantitative measures of
     risk aversion increase substantially and that affected individuals divest more
     from stock. We investigate four explanations: changes in wealth, expected income,
     perceived probabilities, and emotion-based changes of the utility function. Our
     data are inconsistent with the first two channels, while they suggest that fear
     is a potential mechanism underlying financial decisions, whether by increasing
-    the curvature of the utility function or the salience of negative outcomes.'
+    the curvature of the utility function or the salience of negative outcomes.
 
 - id: 11
   title: Long Term Persistence
   pdf: assets/papers/LTP_final.pdf
+  Appendix: assets/papers/PutnamAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of European Economic Association,
   date: December 2016
   volume: 14(6)
   pages: 1401-1436
-  abstract: 'We study whether a positive historical shock can generate long-term persistence
+  abstract: We study whether a positive historical shock can generate long-term persistence
     in development. We show that Italian cities that achieved self-government in the
     Middle Ages have a higher level of civic capital today than similar cities in
     the same area that did not. The size of this effect increases with the length
     of the period of independence and its intensity. This effect persists even after
     accounting for the fact that cities did not become independent randomly. We conjecture
-    that the Middle-Age experience of self-government fostered self-efficacy beliefs''
-    in one'' own ability to complete tasks and reach goals'' and this positive attitude,
+    that the Middle-Age experience of self-government fostered self-efficacy beliefs
+    in one's own ability to complete tasks and reach goals and this positive attitude,
     transmitted across generations, enhances civic capital today. Consistently, we
     find that fifth-graders in former free city-states exhibit stronger self-efficacy
     beliefs and that these beliefs are correlated with a higher level of civic capital.
-    (JEL: O43, P16, O10)'
+    (JEL: O43, P16, O10)
 
 - id: 12
   title: Monnet's Error?
   pdf: assets/papers/Monnet_EP_format.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Economic Policy
+  date: 2016
   volume: '31'
   pages: 247-297
-  abstract: 'Entering a currency union without any political union European countries
+  abstract: Entering a currency union without any political union European countries
     have taken a gamble: will the needs of the currency unions force a political integration
     (as anticipated by Monnet) or will the tensions create a backlash, as suggested
     by Kaldor, Friedman and many others? We try to answer this question by analyzing
@@ -200,13 +213,14 @@
     sentiment as does the 2010 Eurozone crisis. Yet, in spite of the worst recession
     in recent history, the Europeans still support the common currency. Europe seems
     trapped: there is no desire to go backward, no interest in going forward, but
-    it is economically unsustainable to stay still.'
+    it is economically unsustainable to stay still.
 
 - id: 13
   title: Corporate Culture, Societal Culture, and Institutions
   pdf: assets/papers/aerp20151074.pdf
   authors: Luigi Guiso and Luigi Zingales
-  journal: American Economic Review
+  journal: American Economic Review, Papers and Proceedings
+  date: 2015
   volume: 105(5)
   pages: 336-339
   abstract: While both cultural and legal norms (institutions) help foster cooperation,
@@ -223,6 +237,7 @@
   pdf: assets/papers/CorporateCulture.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Financial Economics
+  date: 2015
   volume: 117(1)
   pages: 60-76
   abstract: We study which dimensions of corporate culture are related to a firm'
@@ -238,8 +253,9 @@
   pdf: assets/papers/ProcrastinationImpatience.pdf
   authors: Ernesto Reuben and Luigi Zingales
   journal: Journal of Behavioral and Experimental Economics,
+  date: 2015
   pages: 63-76
-  abstract: 'We use a combination of lab and field evidence to study whether highly-impatient
+  abstract: We use a combination of lab and field evidence to study whether highly-impatient
     individuals are more likely to procrastinate. To measure impatience, we elicit
     individual discount rates by giving participants choices between smaller-sooner
     and larger-later rewards. To measure procrastination, we record how fast participants
@@ -251,12 +267,13 @@
     cashing behavior is consistent with the timing of their payment choice. We find
     substantial evidence of time inconsistency. Namely, more than half of the participants
     who received their check straight away instead of waiting two weeks for a reasonably
-    larger amount, subsequently took more than two weeks to cash it.'
+    larger amount, subsequently took more than two weeks to cash it.
 
 - id: 16
   title: How Stereotypes Impair Women's Career in Science
   authors: Ernesto Reuben and Luigi Zingales
   journal: Proceedings of the National Academy of Sciences
+  date: 2014
   volume: 111(12)
   pages: 4403-4408
   abstract: Women outnumber men in undergraduate enrollments, but they are much less
@@ -265,7 +282,7 @@
     stereotypes. We studied the effect of such stereotypes in an experimental market,
     where subjects were hired to perform an arithmetic task that, on average, both
     genders perform equally well. We find that without any information other than
-    a candidate�s appearance (which makes sex clear), both male and female subjects
+    a candidate's appearance (which makes sex clear), both male and female subjects
     are twice more likely to hire a man than a woman. The discrimination survives
     if performance on the arithmetic task is self-reported, because men tend to boast
     about their performance, whereas women generally underreport it. The discrimination
@@ -280,14 +297,21 @@
 - id: 17
   title: Economic Experts versus Average Americans
   pdf: assets/papers/aer2013.pdf
+  Appendix: assets/papers/AppendixAER2013.pdf
   authors: Luigi Zingales
-  journal: American Economic Review
+  journal: American Economic Review, Papers and Proceedings
+  date: May 2013
+  volume: 103(3)
+  pages: 636–642
+  
 
 - id: 18
   title: The Determinants of Attitudes towards Strategic Default on Mortgages
   pdf: assets/papers/Guiso_Sapienza_Zingales_StrategicDefault.pdf
+  Appendix: assets/papers/AppendixSD.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Finance
+  date: August 2013
   volume: 68(4)
   pages: 1473-1515
   abstract: We use survey data to measure households� propensity to default on mortgages
@@ -303,7 +327,7 @@
   title: Understanding Trust
   pdf: assets/papers/Understandingtrust.pdf
   authors: Anna Toldra and Luigi Zingales
-  journal: Economic Journal
+  journal: The Economic Journal
   date: December 2013
   volume: 123(573)
   pages: 1313-1332
@@ -332,7 +356,21 @@
     find that men's overconfidence is the driving force behind the observed prevalence
     of male representation.
 
+
 - id: 21
+    title: "Civic Capital as the Missing Link"
+    pdf: "assets/papers/civic_cap.pdf"
+    authors: Luigi Guiso and Luigi Zingales
+    publication: "Handbook of Social Economics"
+    editors: "Jess Benhabib, Alberto Bisin and Matthew Jackson"
+    volume: "1"
+    pages: 417-480
+    publisher: "Elsevier"
+    date: "2011"
+    abstract: This chapter reviews the recent debate about the role of social capital in economics. We argue that all the difficulties this concept has encountered in economics are due to a vague and excessively broad definition. For this reason, we restrict social capital to the set of values and beliefs that help cooperation—which for clarity we label civic capital. We argue that this definition differentiates social capital from human capital and satisfies the properties of the standard notion of capital. We then argue that civic capital can explain why differences in economic performance persist over centuries and discuss how the effect of civic capital can be distinguished empirically from other variables that affect economic performance and its persistence, including institutions and geography.
+
+
+- id: 22
   title: What Do Independent Directors Know? Evidence from Their Trading
   pdf: assets/papers/ravina_sapienza.pdf
   authors: Enrichetta Ravina
@@ -352,13 +390,17 @@
     directors earn significantly higher returns than the market when they sell the
     company stock in a window before bad news and around earnings restatements.
 
-- id: 22
+- id: 23
   title: Gender differences in financial risk aversion and career choices are affected
     by testosterone
   authors: Dario Maestripieri and Luigi Zingales
   journal: Proceeding of the National Academy of Sciences
+  date: September 2009
+  doi: https://doi.org/10.1073/pnas.0907352106
+  Volume: 106 (36) 
+  pages: 15268-15273
 
-- id: 23
+- id: 24
   title: Time Discounting for Primary and Monetary Rewards
   pdf: assets/papers/Money&Chocolate.pdf
   authors: Ernesto Reuben and Luigi Zingales
@@ -372,9 +414,10 @@
     who like chocolate and are hungry. This finding suggests that this type of experiments
     identifies an underling individual trait, consistent with of present-biased preferences.
 
-- id: 24
+- id: 25
   title: Cultural Biases in Economic Exchange?
   pdf: assets/papers/cultural_biases.pdf
+  Appendix: assets/papers/OnlineAppendix.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: The Quarterly Journal of Economics
   volume: 124(3)
@@ -390,7 +433,7 @@
     for goodsthat are more trust intensive. Our results suggest that perceptions rooted
     in culture are important (and generally omitted) determinants of economic exchange.
 
-- id: 25
+- id: 26
   title: Is Mistrust Self-Fulfilling?
   pdf: assets/papers/mistrust.pdf
   authors: Ernesto Reuben and Luigi Zingales
@@ -403,7 +446,7 @@
     expected of them. This suggests that guilt aversion plays an important role in
     the repayment of trust.
 
-- id: 26
+- id: 27
   title: A Lobbying Approach to Evaluating the Sarbanes-Oxley Act of 2002
   pdf: assets/papers/HSVJ.pdf
   authors: Yael Hochberg and Annette Vissing-Jorgensen
@@ -426,7 +469,7 @@
     that investors' positive expectations with regards to the effects of these provisions
     were warranted.
 
-- id: 27
+- id: 28
   title: 'The Stock Market and Corporate Investment: a Test of Catering Theory'
   pdf: assets/papers/polk-sapienza.pdf
   authors: Christopher Polk
@@ -444,7 +487,7 @@
     the stronger the abnormal return predictability. We show that patterns in abnormal
     returns are stronger for firms with higher R&D intensity or share turnover.
 
-- id: 28
+- id: 29
   title: Trusting the Stock Market
   pdf: assets/papers/trusting_stock.pdf
   authors: Luigi Guiso and Luigi Zingales
@@ -462,9 +505,10 @@
     suggests that lack of trust could be an important factor in explaining the limited
     participation puzzle, especially among more wealthy investors.
 
-- id: 29
+- id: 30
   title: Culture, Math, and Gender
   pdf: assets/papers/science.pdf
+  doi: http://www.sciencemag.org/cgi/content/full/320/5880/1164/DC1
   authors: Luigi Guiso, Ferdinando Monte and Luigi Zingales
   journal: Science
   volume: 320(5880)
@@ -472,14 +516,14 @@
   abstract: Analysis of PISA results suggests that the gender gap in math scores disappears
     in countries with a more gender-equal culture.
 
-- id: 30
+- id: 31
   title: Alfred Marshall Lecture -- Social Capital as Good Culture
   pdf: assets/papers/social_capital_jeea.pdf
-  authors: Luigi Guiso and Luigi Zingales
+    authors: Luigi Guiso and Luigi Zingales
   journal: The Journal of the European Economic Association
   date: May 2008
   volume: 20(2)
-  pages: 2-3
+  pages: 295-320
   abstract: To explain the extremely long-term persistence (more than 500 years) of
     positive historical experiences of cooperation (Putnam 1993), we model the intergenerational
     transmission of priors about the trustworthiness of others. We show that this
@@ -491,7 +535,7 @@
     these priors are reflected in novels that originate in different parts of the
     country.
 
-- id: 31
+- id: 32
   title: Does Local Financial Development Matter?
   pdf: assets/papers/social_capital.pdf
   authors: Luigi Guiso and Luigi Zingales
@@ -510,26 +554,25 @@
     financial development is an important determinant of the economic success of an
     area even in an environment where there are no frictions to capital movements.
 
-- id: 32
+- id: 33
   title: The Effects of Government Ownership on Bank Lending
   pdf: assets/papers/state-enter.pdf
-  authors: 'May 2004, 72(2): 357-384. Reprinted in Stijn Claessens and Luc Laeven
-    (editors)'
+  authors: 
   journal: Journal of Financial Economics
   date: May 2004
   volume: 72(2)
   pages: 357-384
-  abstract: 'This paper uses information on individual loan contracts to study the
+  abstract: This paper uses information on individual loan contracts to study the
     effects of government ownership on bank lending behavior. State-owned banks charge
     lower interest rates than do privately owned banks to similar or identical firms,
     even if firms are able to borrow more from privately owned banks. State-owned
     banks mostly favor large firms and firms located in depressed areas. The lending
     behavior of state-owned banks is affected by the electoral results of the party
     affiliated with the bank: the stronger the political party in the area where the
-    firm is borrowing, the lower the interest rates charged.'
+    firm is borrowing, the lower the interest rates charged.
 
-- id: 33
-  title: People�s Opium? Religion and Economic Attitudes
+- id: 34
+  title: People's Opium? Religion and Economic Attitudes
   pdf: assets/papers/religion.pdf
   authors: Luigi Guiso and Luigi Zingales
   journal: Journal of Monetary Economics
@@ -551,9 +594,9 @@
     religious denominations. Overall, we find that Christian religions are more positively
     associated with attitudes conducive to economic growth.
 
-- id: 34
+- id: 35
   title: The Effects of Banking Mergers on Loan Contracts
-  authors: 'February 2002, 57(1): 329-368 (Published paper available online through'
+  authors: 
   journal: Journal of Finance
   date: February 2002
   volume: 57(1)

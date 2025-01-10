@@ -5,20 +5,7 @@ summaries:
     date: "July 2022"
     pdf: "assets/papers/NBERReporterN2_2022.pdf"
 
-  - id: 2
-    title: "Civic Capital as the Missing Link"
-    authors: "Luigi Guiso and Luigi Zingales"
-    publication: "Handbook of Social Economics"
-    editors: "Jess Benhabib, Alberto Bisin and Matthew Jackson"
-    volume: "1"
-    pages: "417-480"
-    publisher: "Elsevier"
-    date: "2011"
-    pdf: "assets/papers/civic_cap.pdf"
-    doi: "10.1016/B978-0-444-53187-2.00010-3"
-    abstract: "This chapter reviews the recent debate about the role of social capital in economics. We argue that all the difficulties this concept has encountered in economics are due to a vague and excessively broad definition. For this reason, we restrict social capital to the set of values and beliefs that help cooperation—which for clarity we label civic capital. We argue that this definition differentiates social capital from human capital and satisfies the properties of the standard notion of capital. We then argue that civic capital can explain why differences in economic performance persist over centuries and discuss how the effect of civic capital can be distinguished empirically from other variables that affect economic performance and its persistence, including institutions and geography."
-
-  - id: 3
+    - id: 2
     title: "NBER Reporter 2011: Trust and Finance"
     authors: "Luigi Zingales"
     date: "July 2011"
